@@ -20,6 +20,36 @@
     font-size: 20px;
     color: #3EDBF0;
 }
+
+.title::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 40px;
+    background-color: #3EDBF0;
+    box-shadow: 6px 0 #3edbf065;
+    margin-right: 20px;
+}
+
+.btn-info {
+    color: white;
+}
+
+.btn-info:hover {
+    color: white;
+}
+
+.btn-info:focus {
+    color: white;
+}
+
+.btn-info:active {
+    color: white;
+}
+
+.mb-footer {
+    margin-bottom: 90px;
+}
 /* GLOBAL STYLE END */
 
 /* NAV START */
@@ -34,22 +64,23 @@
 }
 /* NAV END */
 
-/* MAIN START */
+/* DASHBOARD START */
 .summary .col {
     margin-bottom: 40px;
     min-width: 217px;
 }
 
-.summary .card-header {
-    background-color: white;
-}
-
-.transaction .btn-info {
-    color: white;
-}
-
-.transaction table td a {
+.transactions table td a {
     text-decoration: none;
 }
 
-/* MAIN END */
+.transactions .transaction {
+    width: 49%;
+}
+/* DASHBOARD END */
+
+/* LAPORAN START */
+.w-id {
+    width: 100px;
+}
+/* LAPORAN END */
